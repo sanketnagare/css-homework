@@ -1,0 +1,250 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+.maincard {
+    height: 440px;
+    width: 400px;
+    border: 2px solid lightgray;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0px 0px 4px 4px #dedada;
+}
+
+.extra {
+    position: relative;
+    height: 300px;
+    width: 400px;
+}
+
+.food {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.offer {
+    position: absolute;
+    color: white;
+    background-color: rgb(36, 133, 219);
+    font-size: 15px;
+    padding: 2px;
+    bottom: 12px;
+    left: 0;
+}
+
+.time {
+    position: absolute;
+    right: 12px;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 15px;
+    bottom: 12px;
+    font-weight: bold;
+    background-color: rgba(211, 211, 211, 0.8);
+    color: black;
+}
+
+.promot {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    background-color: rgba(98, 94, 94, 0.805);
+    font-size: 10px;
+    color: rgb(185, 177, 177);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+.restaurant {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.location {
+    font-size: 20px;
+    color: rgb(123, 122, 122);
+}
+
+.safe {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+
+}
+
+.safe img {
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.safe p {
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    color: rgb(93, 90, 90);
+}
+
+
+
+/* part 2 */
+
+
+
+.sunset {
+    width: 800px;
+    height: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    margin: 100px auto;
+}
+
+.sunset img {
+    border-radius: 20px;
+}
+
+.sunset h1 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: white;
+}
+
+.sunset p {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 20px;
+    top: 60%;
+    left: 40%;
+    padding: 18px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* part 3 */
+.zomato {
+    width: 80%;
+    height: 450px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+.zomato h1 {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    font-size: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.zomato p {
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    font-size: 40px;
+    color: white;
+}
+
+.bar {
+    position: absolute;
+    top: 70%;
+    width: 80%;
+    left: 9%;
+    background-color: white;
+    padding: 7px;
+    border-radius: 20px;
+
+}
+
+.location2 {
+    width: 30px;
+
+}
+
+.search {
+    width: 30px;
+}
+
+.city {
+    width: 200px;
+    border: none;
+    font-size: 15px;
+    margin: 10px auto;
+    border-right: 2px solid lightgray;
+}
+
+.inp {
+    width: 400px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+
+
+/* part 4 */
+
+
+.profile-card {
+    height: 400px;
+    width: 500px;
+    margin: 80px auto;
+    border: 1px solid lightgrey;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 4px 4px #dedada;
+}
+
+#mountain {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 40%;
+}
+
+#face {
+    position: absolute;
+    bottom: 40%;
+    left: 34%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px white solid;
+}
+
+.profile-card h1 {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.profile-card h2 {
+    text-align: center;
+}
